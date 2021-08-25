@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/stylesheet.css">
+    <title>Portfolio</title>
+</head>
+<body onload="onloadFadeIn()">
+    <div id="container-nav">
+        <div class="img-logo"></div>
+        <div class="container-nav-collapse" onclick="cross()">
+            <div id="box" onmouseover="cross()" onclick="cross()">
+                <div class="line"></div> 
+                <div class="line"></div> 
+                <div class="line"></div> 
+            </div>
+            <div class="boxContent" id="boxContent">
+                <a href="#"><span class="button-collapse" id="button-collapse-1" onclick="followLink(1)">CV</span></a>
+                <a href="#"><span class="button-collapse" id="button-collapse-1" onclick="followLink(2)">Motivation</span></a>
+                <a href="#"><span class="button-collapse" id="button-collapse-1" onclick="followLink(3)">Contact</span></a>   
+            </div>
+        </div>
+        <div class="container-nav-full">
+            <a href="#"><span class="button-full" id="button-full-1" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(1)">CV</span></a>
+            <a href="#"><span class="button-full" id="button-full-2" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(2)">Motivation</span></a>
+            <a href="#"><span class="button-full" id="button-full-3" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(3)">Contact</span></a>
+        </div>
+    </div>
+    <div class="underline" id="underline">
+        <span class="underline-strike"></span>
+     </div>
+     <div id="main">test
+         <div class="container-main">
+             <h3>Motivatie</h3><br><br>
+             <div class="container-listItem">
+                Laat u vooral niet misleiden door de beroepservaring vermeld in mijn CV!<br>
+                Ik heb mezelf via zelfstudie bijgeschoold in web-development en wil hier graag mijn beroep van
+                maken. Ook al deed ik mijn huidige job met veel plezier, toch ligt mijn passie in de IT-wereld.
+            </div>
+            <p>Enkele korte verdiepingen over mijn opleidingen:</p>
+            <div class="container-listItem">
+                <ul>
+                    <li>
+                        Webdesign -> score 99%: <br>
+                        vooral basis HTML5 en css, frames, forms aanmaken en versturen, basis JS, sitemaps aanmaken, favicons, ...
+                    </li>
+                    <li>
+                        PHP mySQL → score 84%: <br>
+                        Gaat voornamelijk over het boek "Fundament programmeren PHP en MySQL
+                        by AC Gijssen", dit is formulieren verwerken, koppelingen met mySQL, data van mySQL gebruiken op websites, updaten, verwijderen, mySQL database opzettnen, ...
+                    </li>
+                </ul>
+            </div>
+            <p>Met volgende cursussen heb ik mezelf verdiept:</p>
+            <div class="container-listItem">
+                <ul>
+                    <li>
+                        Javascript → <a href=" https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">FreeCodeCamp</a>:<br>
+                        succesvol afgerond met certificaat<br>
+                        boek: Javascript the missing manual by David Sawyer McFarland
+                    </li>
+                    <li>
+                        Responsive web design → <a href=" https://www.freecodecamp.org/learn/responsive-web-design/">FreeCodeCamp</a>:<br>
+                        succesvol afgerond met certificaat
+                    </li>
+                    <li>
+                        Bootstrap → <a href="https://www.freecodecamp.org/learn/front-end-libraries/">FreeCodeCamp</a>:<br>
+                        Momenteel nog bezig met deze front-end-libraties af te maken
+                    </li>
+                    <li>
+                        Git → Real life saver maar kan en wil nog veel bijleren.
+                    </li>
+                    <li>
+                        SCSS → kennis van de basis, nog niet veel praktische ervaring
+                    </li>
+                    <li>
+                        VBA application → wekelijkse ervaring in mijn huidige job voor het verbeteren van alledaagse taken.
+                    </li>
+                </ul>
+            </div>
+            <p><strong>Over mezelf</strong></p><br>
+            Ik ben steeds zeer gemotiveerd en gepasioneerd om computertaken te automatiseren.
+            Ik leer zeer snel bij en weet mijn weg te vinden in search engines. een probleem kom ik bijna nooit tegen,
+            uitdagingen daarin tegen vind ik het leukste wat er is.<br><br>
+            indien ik jullie heb weten teasen, kan je mij steeds contacteren rechts bovenaan!<br><br>
+            dank om de tijd de nemen om deze website te bekijken.<br><br>
+            Robin Van Sanden
+         </div>
+     </div>
+</body>
+<script src="./script/js.js"></script>
+</html>

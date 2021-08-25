@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/stylesheet.css">
+    <title>Portfolio</title>
+</head>
+<body onload="onloadFadeIn()">
+    <div id="container-nav">
+        <div class="img-logo"></div>
+        <div class="container-nav-collapse" onclick="cross()">
+            <div id="box" onmouseover="cross()" onclick="cross()">
+                <div class="line"></div> 
+                <div class="line"></div> 
+                <div class="line"></div> 
+            </div>
+            <div class="boxContent" id="boxContent">
+                <a href="#"><span class="button-collapse" onclick="followLink(1)">CV</span></a>
+                <a href="#"><span class="button-collapse" onclick="followLink(2)">Motivation</span></a>
+                <a href="#"><span class="button-collapse" onclick="followLink(3)">Contact</span></a>   
+            </div>
+        </div>
+        <div class="container-nav-full">
+            <a href="#"><span class="button-full hovered" id="button-full-1" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(1)">CV</span></a>
+            <a href="#"><span class="button-full hovered" id="button-full-2" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(2)">Motivation</span></a>
+            <a href="#"><span class="button-full hovered" id="button-full-3" onmouseenter = "navbarMouseIn(this)" onmouseleave="navbarMouseOut(this)" onclick="clouwd(3)">Contact</span></a>
+        </div>
+    </div>
+    <div class="underline" id="underline">
+        <span class="underline-strike"></span>
+     </div>
+     <div id="main">test
+         <div class="container-main">
+             <h3>Portfolio Robin Van Sanden</h3><br><br>
+             <p><strong>Opleidingen</strong></p>
+             <div class="container-listItem">
+                <p>Diploma's</p>
+                <ul>
+                    <li>BSO secundair onderwijs Banketbakkerij (Coloma Plus)</li>
+                    <li>7de jaar specialisatie chocolade & suikerbewerking (Coloma Plus)</li>
+                    <li>TSO Automechanica (CVO VTI Lier)</li>
+                    <li>Diploma: PHP / MySQL (<a href="https://www.nha.be/beroepsopleidingen/computer/php-mysql#programma">NHA</a>)</li>
+                </ul>
+                <p>Getuigschrift</p>
+                <ul>
+                    <li>Webdesign (<a href="https://www.nha.be/beroepsopleidingen/computer/webpage-designer#programma">NHA</a>)</li>
+                </ul>  
+            </div>
+            <p><strong>Talenkennis</strong></p>
+            <div class="container-listItem">
+                <ul>
+                    <li>Nederlands: Moedertaal</li>
+                    <li>Engels: Gemiddeld</li>
+                </ul>
+            </div>
+            <p><strong>Vaardigheden</strong></p>
+            <div class="container-listItem">
+                <ul>
+                    <li>HTML5</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>Bootstrap</li>
+                    <li>GIT</li>
+                    <li>Visual Basic (voor Excel)</li>
+                    <li>voeding</li>
+                </ul>
+            </div>
+            <p><strong>Andere (hobby's)</strong></p>
+            <div class="container-listItem">
+                <ul>
+                    <li>Geocaching</li>
+                    <li>Raspberry PI</li>
+                    <li>Zelfstudie script talen</li>
+                </ul>
+            </div>
+         </div>
+         <div id="rvs-text">
+            Created by Robin Van Sanden &copy;
+        </div>
+         <div class="container-main">
+            <p><strong>Ervaringen</strong><br><br>
+                Gudrun Commercial<br>
+                    <div class="container-listItem">
+                        <p>Keukenmedewerker</p>
+                        <ul>
+                            <li>Aanmaken vullingen</li>
+                            <li>registratie lotcodes</li>
+                            <li>omrekenen recepturen</li>
+                        </ul>
+                    </div>
+                    <div class="container-listItem">
+                        <p>Keukenverantwoordelijke</p>
+                        <ul>
+                            <li>plannen en aansturen van 8 collega's voor het aanmaken van vullingen</li>
+                            <li>stock bijhouden en tijdig doorgeven</li>
+                            <li>aanmaken automatiche omreken systemen in Excel</li>
+                        </ul>
+                    </div>
+                    <div class="container-listItem">
+                        <p>R&D Chocolatier</p>
+                        <ul>
+                            <li>Ontwerpen van nieuwe pralines en vullingen op vraag van klant</li>
+                            <li>Aanmaken recepturen en werkinstructies (ERP Axapta)</li>
+                            <li>Recepturen doorgeven voor kostprijsberekeningen (Excel)</li>
+                        </ul>
+                    </div>
+                    <div class="container-listItem">
+                        <p>R&D - QA support</p>
+                        <ul>
+                            <li>Ontwerpen van geautomatiseerd systeem voor driehoekstesten (Excel VBA)</li>
+                            <li>Ontwerpen van automatisch specificatiesysteem om aan internationale wetgevingen te voldoen (VBA applications - Excel en Word)</li>
+                            <li>opzetten en ontwerpen template complete breakdown (vba applications & ERP Axapta)</li>
+                            <li>aanmaken mailing systeem bij leveranciersbeoordeling (Excel VBA)</li>
+                            <li>aanmaken van recepturen in ERP systeem</li>
+                            <li>wetgevingen per land nakijken aan de hand van specificatie systeem</li>
+                            <li>driehoekstesten organiseren ISO conform</li>
+                            <li>contacten met internationale klanten en leveranciers onderhouden om nieuwe en bestaande producten te realiseren/behouden</li>
+                        </ul>
+                    </div>
+                    <div class="container-listItem">
+                        <p>R&D chocolatier-technoloog</p>
+                            <ul>
+                                <li>aanmaken en onderhouden van validatie documenten van nieuwe producten</li>
+                                <li>vertaling van handwerk naar machinaal proces</li>
+                                <li>aanmaken KPI rapportagetools (Excel VBA)</li>
+                                <li>recepturen in ERP systeem aanmaken (Navision)</li>
+                                <li>Opleidingen aanmaken en geven aan nieuwe en bestaande collega's(powerpoint)</li>
+                                <li>ontwerpen connectiesysteem tussen weegschaal en administratie (Excel VBA)</li>
+                                <li>OEE rapportagetool automatiseren</li>
+                                <li>rapportagetool creëren reparatie en onderhoud van machinepark</li>
+                            </ul>
+                    </div>
+            </p>
+         </div>
+         <div class="container-main">
+            <h1 style="align-self:center;">Sudoku Game</h1>
+            <div id="sudoku">
+            </div>
+            <div id="score">
+                Points: <span id="points">0</span>
+            </div>
+            <div id="noTime" onclick="noTime()">
+               <span class="button-full hovered">Skip Sudoku</span>
+            </div>
+        </div>
+        <div id="endScore" onclick="sudokuDone()">
+            <p>Proficiat! <br>jouw score is</p>
+            <button id="Completed" onclick="sudokuDone()"></button>
+        </div>
+     </div>
+     
+</body>
+<script src="./script/js.js"></script>
+<script src="./script/sudoku.js"></script>
+<script src="./script/fireworks.js"></script>
+</html> 
